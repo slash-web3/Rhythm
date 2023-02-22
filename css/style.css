@@ -1553,7 +1553,11 @@ h6 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    max-width: 50%;
+  }
+
+  .browse-block__actions img {
+    height: 2.9375rem;
+    width: 9.5rem;
   }
 }
 
