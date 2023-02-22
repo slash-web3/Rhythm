@@ -860,11 +860,10 @@ h6 {
 }
 
 .swiper-pagination-bullet-active {
-  background: #FF6428;
+  background-color: #FF6428;
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 1.5rem;
-          flex: 0 0 1.5rem;
-  max-height: 0.75rem;
+  width: 24px;
+  height: 12px;
   position: relative;
   top: 0.125rem;
 }
