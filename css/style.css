@@ -1439,11 +1439,6 @@ h6 {
   }
 }
 
-@media (max-width: 33.8125em) and (max-width: 20em) {
-  .swiper-previews__pagination {
-    margin-left: 9.375rem;
-  }
-}
 
 @media (max-width: 33.75em) and (max-width: 20em) {
   .slide-swiper-previews__image img {
