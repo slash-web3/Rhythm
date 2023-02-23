@@ -1439,7 +1439,6 @@ h6 {
   }
 }
 
-
 @media (max-width: 33.75em) and (max-width: 20em) {
   .slide-swiper-previews__image img {
     width: 20.625rem;
@@ -2150,26 +2149,6 @@ h6 {
 @supports not (margin-top: clamp( 1.625rem , 0.9656593407rem  +  3.2967032967vw , 3.5rem )) {
     .slide-swiper-previews__author {
       margin-top: calc(1.625rem + 1.875 * (100vw - 20rem) / 56.875);
-    }
-}
-}
-
-@media (max-width: 33.8125em) and (min-width: 76.875em) {
-  .swiper-previews__pagination {
-    margin-left: 13.75rem;
-  }
-}
-
-@media (max-width: 33.8125em) and (min-width: 20em) and (max-width: 76.875em) {
-@supports (margin-left: clamp( 9.375rem , 7.8365384615rem  +  7.6923076923vw , 13.75rem )) {
-    .swiper-previews__pagination {
-      margin-left: clamp( 9.375rem , 7.8365384615rem  +  7.6923076923vw , 13.75rem );
-    }
-}
-
-@supports not (margin-left: clamp( 9.375rem , 7.8365384615rem  +  7.6923076923vw , 13.75rem )) {
-    .swiper-previews__pagination {
-      margin-left: calc(9.375rem + 4.375 * (100vw - 20rem) / 56.875);
     }
 }
 }
