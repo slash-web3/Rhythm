@@ -944,18 +944,6 @@ h6 {
     padding-bottom: 2.6875rem;
   }
 
-  .footer__page {
-    padding-left: 15.9375rem;
-  }
-
-  .footer__product {
-    padding-left: 7.875rem;
-  }
-
-  .footer__follow {
-    padding-left: 10.0625rem;
-  }
-
   .main-block__content {
     margin-top: 14.6875rem;
   }
@@ -1130,6 +1118,12 @@ h6 {
   }
 }
 
+@media (max-width: 40em) {
+  .footer__page {
+    padding-left: 5%;
+  }
+}
+
 @media (max-width: 20em) {
   .header__content {
     padding-top: 2rem;
@@ -1153,18 +1147,6 @@ h6 {
 
   .footer__container {
     padding-bottom: 1.4375rem;
-  }
-
-  .footer__page {
-    padding-left: 0.0000000625rem;
-  }
-
-  .footer__product {
-    padding-left: 0.0000000625rem;
-  }
-
-  .footer__follow {
-    padding-left: 0.0000000625rem;
   }
 
   .main-block__content {
@@ -1343,6 +1325,19 @@ h6 {
   }
 }
 
+@media (max-width: 68.75em) {
+  .footer__content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 2.8125rem;
+  }
+
+  .footer__follow {
+    padding-left: 0rem;
+    width: 100%;
+  }
+}
+
 @media (max-width: 68.125em) {
   .previews-block__swiper {
     max-width: 100%;
@@ -1365,19 +1360,6 @@ h6 {
   }
 }
 
-@media (max-width: 61.875em) {
-  .footer__content {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    gap: 2.8125rem;
-  }
-
-  .footer__follow {
-    padding-left: 0rem;
-    width: 100%;
-  }
-}
-
 @media (max-width: 58.125em) {
   .icons-actions__item1 {
     background: url("../img/play-market-bl.svg") 0 0 no-repeat;
@@ -1388,7 +1370,13 @@ h6 {
   }
 }
 
-@media (max-width: 43.75em) {
+@media (max-width: 57.5em) {
+  .footer__product {
+    padding-left: 5%;
+  }
+}
+
+@media (max-width: 52.5em) {
   .footer__product {
     padding-left: 0;
     width: 100%;
@@ -1523,6 +1511,13 @@ h6 {
   }
 }
 
+@media (max-width: 29.375em) {
+  .footer__page {
+    padding-left: 0;
+    width: 100%;
+  }
+}
+
 @media (max-width: 29.99875em) {
   .browse-block__actions {
     -webkit-box-orient: vertical;
@@ -1540,13 +1535,6 @@ h6 {
         -ms-flex-pack: center;
             justify-content: center;
     margin-top: 2.8125rem;
-  }
-}
-
-@media (max-width: 26.25em) {
-  .footer__page {
-    padding-left: 0rem;
-    width: 100%;
   }
 }
 
@@ -1641,42 +1629,6 @@ h6 {
 @supports not (padding-bottom: clamp( 1.4375rem , 0.9979395604rem  +  2.1978021978vw , 2.6875rem )) {
     .footer__container {
       padding-bottom: calc(1.4375rem + 1.25 * (100vw - 20rem) / 56.875);
-    }
-}
-
-@supports (padding-left: clamp( 0.0000000625rem , -5.6043955199rem  +  28.0219779121vw , 15.9375rem )) {
-    .footer__page {
-      padding-left: clamp( 0.0000000625rem , -5.6043955199rem  +  28.0219779121vw , 15.9375rem );
-    }
-}
-
-@supports not (padding-left: clamp( 0.0000000625rem , -5.6043955199rem  +  28.0219779121vw , 15.9375rem )) {
-    .footer__page {
-      padding-left: calc(0.0000000625rem + 15.9374999375 * (100vw - 20rem) / 56.875);
-    }
-}
-
-@supports (padding-left: clamp( 0.0000000625rem , -2.7692306848rem  +  13.8461537363vw , 7.875rem )) {
-    .footer__product {
-      padding-left: clamp( 0.0000000625rem , -2.7692306848rem  +  13.8461537363vw , 7.875rem );
-    }
-}
-
-@supports not (padding-left: clamp( 0.0000000625rem , -2.7692306848rem  +  13.8461537363vw , 7.875rem )) {
-    .footer__product {
-      padding-left: calc(0.0000000625rem + 7.8749999375 * (100vw - 20rem) / 56.875);
-    }
-}
-
-@supports (padding-left: clamp( 0.0000000625rem , -3.538461454rem  +  17.6923075824vw , 10.0625rem )) {
-    .footer__follow {
-      padding-left: clamp( 0.0000000625rem , -3.538461454rem  +  17.6923075824vw , 10.0625rem );
-    }
-}
-
-@supports not (padding-left: clamp( 0.0000000625rem , -3.538461454rem  +  17.6923075824vw , 10.0625rem )) {
-    .footer__follow {
-      padding-left: calc(0.0000000625rem + 10.0624999375 * (100vw - 20rem) / 56.875);
     }
 }
 
